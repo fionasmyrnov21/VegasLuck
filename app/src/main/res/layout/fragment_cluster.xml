@@ -1,0 +1,7 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+ <ImageView android:id="@+id/scenery" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+ <TextureView android:id="@+id/movie" android:layout_width="match_parent" android:layout_height="match_parent" />
+ <TextView android:id="@+id/menuLoading" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#171526" android:gravity="bottom|center_horizontal" android:paddingBottom="96dp" android:text="LOADING..." android:textColor="#FFF4D7" android:textSize="14sp" />
+ <View android:id="@+id/shade" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#10000000" />
+ <LinearLayout android:id="@+id/content" android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>
